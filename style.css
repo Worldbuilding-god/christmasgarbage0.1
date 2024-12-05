@@ -7,7 +7,12 @@ font-family: "Mountains of Christmas", serif;
 171A21 - rich black
 EDF2EF - anti-flash white
 F21B3F - red(munsell)
+07BEB8 - light sea green
 */
 *{
     color: #171A21;
+    font-family: "Emilys Candy", serif;
+}
+#solid{
+    background-color: #f21b3f;
 }

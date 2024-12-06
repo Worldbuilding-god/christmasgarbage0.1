@@ -16,3 +16,8 @@ F21B3F - red(munsell)
 #solid{
     background-color: #f21b3f;
 }
+body{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}

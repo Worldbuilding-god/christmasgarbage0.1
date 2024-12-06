@@ -13,11 +13,63 @@ F21B3F - red(munsell)
     color: #171A21;
     font-family: "Emilys Candy", serif;
 }
-#solid{
+#ss1{
     background-color: #f21b3f;
+    width: 100%;
+    text-align: center
 }
-body{
+#ss3{
+    background-color: #f21b3f;
+    width: 100%;
+    text-align: center;
+}
+p{
+    color: #edf2ef;
+}
+.container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
+    
+}
+#ss2{
+    background-image: url(novyi-god-rozhdestvo-iolochnye-igrushki-iolochnye-ukrashe-12\ \(1\).jpg);
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+footer{
+    background-color: #f21b3f;
+    text-align: center
+}
+.button1{
+    background-color: #197BBD;
+    color: #EDF2EF;
+    transition:ease-out;
+    transform: scale(1);
+    transition-duration: 0.5s;
+}
+.button1:hover{
+    background-color: #EDF2EF;
+    color: #171A21;
+    transition:ease-out;
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    transform: scale(1);
+}
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
+    transform: scale(1.01);
+}
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
 }

@@ -71,5 +71,24 @@ footer{
   
   /* Add some padding inside the card container */
   .container {
-    padding: 2px 16px;
+    padding: 2px 16px; 
+    display:grid;
+        grid-template-columns: minmax(230px, 1fr);
+        grid-gap: 20px;
+}
+@media screen and (min-width:764px){
+    .container {
+        display:grid;
+        grid-template-columns: repeat(2, minmax(230px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+     }
+}
+@media screen and (min-width:1280px){
+    .container {
+        display:grid;
+        grid-template-columns: repeat(3, minmax(230px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+     }
 }

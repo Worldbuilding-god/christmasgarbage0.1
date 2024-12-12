@@ -12,8 +12,6 @@ F21B3F - red(munsell)
 *{
     color: #171A21;
     font-family: "Emilys Candy", serif;
-    padding: 10px;
-    margin: 10px;
 }
 #ss1{
     background-color: #f21b3f;
@@ -80,7 +78,7 @@ footer{
 @media screen and (min-width:764px){
     .container {
         display:grid;
-        grid-template-columns: repeat(2, minmax(230px, 1fr));
+        grid-template-columns: repeat(1, minmax(230px, 1fr));
         grid-gap: 20px;
         padding: 20px;
      }
@@ -88,7 +86,7 @@ footer{
 @media screen and (min-width:1280px){
     .container {
         display:grid;
-        grid-template-columns: repeat(3, minmax(230px, 1fr));
+        grid-template-columns: repeat(1, minmax(230px, 1fr));
         grid-gap: 20px;
         padding: 20px;
      }
